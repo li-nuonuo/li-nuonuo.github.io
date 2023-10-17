@@ -1,0 +1,58 @@
+baseURL = "https://li-nuonuo.github.io/"
+# 域名
+languageCode = "zh-cn"
+# 语言
+title = "梨诺的博客"
+# 标题
+theme = 'github-style-master'
+# 主题
+googleAnalytics = ""
+# 谷歌分析
+pygmentsCodeFences = true
+# 分区代码围栏
+pygmentsUseClasses = true
+# 分区使用类
+
+[params]
+  author = "梨诺"
+  # 作者
+  description = "上海科技大学"
+  # 随便说句话
+  github = "li-nuonuo"
+#  facebook = ""
+#  twitter = ""
+#  linkedin = ""
+#  instagram = ""
+#  tumblr = ""
+  email = "2029142041@qq.com"
+  url = "https://li-nuonuo.github.io"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "😀"
+  # 启用emoji表情
+  favicon = "/images/github.png"
+  # 网站图标
+  location = "China,Shanghai"
+  # 定位
+  enableGitalk = true
+  # 第三方评论
+  [params.gitalk]
+    clientID = "bf68a45bdf62b97ad98e" 
+    clientSecret = "1695d059066c92b10bb251c0cc2185adf0409c45" 
+    repo = "https://github.com/li-nuonuo/gitalk-linuo"
+    owner = "li-nuonuo"
+    admin = "li-nuonuo"
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 15
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/li-nuonuo"
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
